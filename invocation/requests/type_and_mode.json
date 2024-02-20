@@ -1,0 +1,199 @@
+{
+    "version": "1.0",
+    "session": {
+        "new": true,
+        "sessionId": "amzn1.echo-api.session.ff76e262-c457-4bf0-a04a-c7abdb093bf3",
+        "application": {
+            "applicationId": "amzn1.ask.skill.4cb46393-f70c-4872-99ae-34b218f4f662"
+        },
+        "attributes": {},
+        "user": {
+            "userId": "amzn1.ask.account.AHEAG54662UBIXIZPYT45LIJIV4GPUHKKBOEQY7FN6R7EKSFKJHUXUQQK4YZMC66IP5FUHM2WDUL3UNU5FRMB6SXH6ZFBTUANJZNYPCOKLY7EMLU5CHX7PMIZKG4SY6M6QKET3FBLGIJEQJG3NELPYBVWTZNBW3VM3KKYDY6SI4WB7ROOG3HOUKK6POW55MG3JN5WKLRYPYOBCI"
+        }
+    },
+    "context": {
+        "Viewports": [
+            {
+                "type": "APL",
+                "id": "main",
+                "shape": "RECTANGLE",
+                "dpi": 213,
+                "presentationType": "STANDARD",
+                "canRotate": false,
+                "configuration": {
+                    "current": {
+                        "mode": "HUB",
+                        "video": {
+                            "codecs": [
+                                "H_264_42",
+                                "H_264_41"
+                            ]
+                        },
+                        "size": {
+                            "type": "DISCRETE",
+                            "pixelWidth": 1280,
+                            "pixelHeight": 800
+                        }
+                    }
+                }
+            }
+        ],
+        "Viewport": {
+            "experiences": [
+                {
+                    "arcMinuteWidth": 346,
+                    "arcMinuteHeight": 216,
+                    "canRotate": false,
+                    "canResize": false
+                }
+            ],
+            "mode": "HUB",
+            "shape": "RECTANGLE",
+            "pixelWidth": 1280,
+            "pixelHeight": 800,
+            "dpi": 213,
+            "currentPixelWidth": 1280,
+            "currentPixelHeight": 800,
+            "touch": [
+                "SINGLE"
+            ],
+            "video": {
+                "codecs": [
+                    "H_264_42",
+                    "H_264_41"
+                ]
+            }
+        },
+        "Extensions": {
+            "available": {
+                "aplext:backstack:10": {}
+            }
+        },
+        "Advertising": {
+            "advertisingId": "00000000-0000-0000-0000-000000000000",
+            "limitAdTracking": true
+        },
+        "System": {
+            "application": {
+                "applicationId": "amzn1.ask.skill.4cb46393-f70c-4872-99ae-34b218f4f662"
+            },
+            "user": {
+                "userId": "amzn1.ask.account.AHEAG54662UBIXIZPYT45LIJIV4GPUHKKBOEQY7FN6R7EKSFKJHUXUQQK4YZMC66IP5FUHM2WDUL3UNU5FRMB6SXH6ZFBTUANJZNYPCOKLY7EMLU5CHX7PMIZKG4SY6M6QKET3FBLGIJEQJG3NELPYBVWTZNBW3VM3KKYDY6SI4WB7ROOG3HOUKK6POW55MG3JN5WKLRYPYOBCI"
+            },
+            "device": {
+                "deviceId": "amzn1.ask.device.AGRK3YFBW2TGSW3P33DCCA7ZICBW64QTQJITSVKU4LQGX7FBZSWYWX7WWMFHU37GGNBLD77RFU6PCL7ISZXMSNLTRJKOBQT6BTOG3SITXAMTALGYRLT5GPP6SN3OAO4YVTDXL4UREUD755FEPG7W2E5D5M2XCEOU2XVB653LI3JP6ESTBUST6",
+                "supportedInterfaces": {}
+            },
+            "apiEndpoint": "https://api.eu.amazonalexa.com",
+            "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5ldS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjRjYjQ2MzkzLWY3MGMtNDg3Mi05OWFlLTM0YjIxOGY0ZjY2MiIsImV4cCI6MTcwMTAxMjczMywiaWF0IjoxNzAxMDEyNjczLCJuYmYiOjE3MDEwMTI2NzMsInByaXZhdGVDbGFpbXMiOnsiY29udGV4dCI6IkFBQUFBQUFBQVFBeTd5WTV3YUxRdDdML1BHUTBpMDNyVGdFQUFBQUFBQUJSSktkTzdRRHNUWmpJWk9ZNlZCc1lSWkJiQzcyRnlkVnBqOExLQlYyR0pBNGRGT0JVR3pLeVE3Z29WUlpsbE1RaXUwL0VBUEtzQlpnbEwwN2NMRXMwNE5IMkZVRThUUXhBSzhROG5TbEh5bHBHdGVRNW13NG1iRlk2ODdWcXlHVE5ucG5WTnYrNWlCZ3Vod214N2FzWUMxNFAzQ3grWUltTkhxcFVBemVwWHAzNGFvcWd3N3dERC9ESjZMMXZkZEdUazJxMHdjMEJHOExyMHh5Zi9wMDhjVmlVVzFKQUs1cm54aDZSWTNXRWNOeng4V3hZdTB3TVJ0MjcveTV3aUY1VTd4cFI4dXFWdS9rOHlxMC94VlVzTVhuR3hGN3lHTVZPV3k0QVJWdDNJcGVvSXczeG9CK3A0NlF6bkdhTHVTV2NNYUIySkMxbGRncTJ1bFNPZ1lsZUgzRVo4M0ZGc3pZWG1IWFpRVFd5M3lKUWwyWlZzeW1qaFRaNnVoUG1tWnVtZjV2SDh0QnA5NWpPRkIwT1E2bVZjaElSMkxtM3BQMFBKUERMU2twQXZlR2dwU3pQKzU5akx0eTM0c0pRIiwiZGV2aWNlSWQiOiJhbXpuMS5hc2suZGV2aWNlLkFHUkszWUZCVzJUR1NXM1AzM0RDQ0E3WklDQlc2NFFUUUpJVFNWS1U0TFFHWDdGQlpTV1lXWDdXV01GSFUzN0dHTkJMRDc3UkZVNlBDTDdJU1pYTVNOTFRSSktPQlFUNkJUT0czU0lUWEFNVEFMR1lSTFQ1R1BQNlNOM09BTzRZVlREWEw0VVJFVUQ3NTVGRVBHN1cyRTVENU0yWENFT1UyWFZCNjUzTEkzSlA2RVNUQlVTVDYiLCJ1c2VySWQiOiJhbXpuMS5hc2suYWNjb3VudC5BSEVBRzU0NjYyVUJJWElaUFlUNDVMSUpJVjRHUFVIS0tCT0VRWTdGTjZSN0VLU0ZLSkhVWFVRUUs0WVpNQzY2SVA1RlVITTJXRFVMM1VOVTVGUk1CNlNYSDZaRkJUVUFOSlpOWVBDT0tMWTdFTUxVNUNIWDdQTUlaS0c0U1k2TTZRS0VUM0ZCTEdJSkVRSkczTkVMUFlCVldUWk5CVzNWTTNLS1lEWTZTSTRXQjdST09HM0hPVUtLNlBPVzU1TUczSk41V0tMUllQWU9CQ0kifX0.WdLeptqB3dgOwK-yVMP70_ouO9AY-95HBoiUEVlMLMNo0ocpF8gJEtWRYWQlAs0JQeqkpRnrS-96kvA__qIDJkCtACxN76UUVrizN8vbrU68eFmLuHl9UKwFEQIZBqNls3kfDxta2vZy4EQJ6Jt2sb8yOcLY61Iqxf08fDmYTAxO93QkYXsVnri89XTReK-ID3mYzCb1mapUapUeDQ1pwrFoXAs0Qpat3mWmXNyzpkFqz9XzuZUDscUhyQnFwSU7D9qfbn2KWSKTPzcwwWa8927BaMsu29TxjsFgWdtwDwi4sfYzxLwMkoC_k-xpxkNYqKPtxy3DLXEqicW47-uKPA"
+        }
+    },
+    "request": {
+        "type": "IntentRequest",
+        "requestId": "amzn1.echo-api.request.23d3d475-d4e4-444c-9260-a8d442c54d3f",
+        "locale": "en-GB",
+        "timestamp": "2023-11-26T15:31:13Z",
+        "intent": {
+            "name": "whatson",
+            "confirmationStatus": "NONE",
+            "slots": {
+                "mode": {
+                    "name": "mode",
+                    "value": "open",
+                    "resolutions": {
+                        "resolutionsPerAuthority": [
+                            {
+                                "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.4cb46393-f70c-4872-99ae-34b218f4f662.LIST_OF_GAME_MODES",
+                                "status": {
+                                    "code": "ER_SUCCESS_MATCH"
+                                },
+                                "values": [
+                                    {
+                                        "value": {
+                                            "name": "open",
+                                            "id": "7cef8a734855777c2a9d0caf42666e69"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "confirmationStatus": "NONE",
+                    "source": "USER",
+                    "slotValue": {
+                        "type": "Simple",
+                        "value": "open",
+                        "resolutions": {
+                            "resolutionsPerAuthority": [
+                                {
+                                    "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.4cb46393-f70c-4872-99ae-34b218f4f662.LIST_OF_GAME_MODES",
+                                    "status": {
+                                        "code": "ER_SUCCESS_MATCH"
+                                    },
+                                    "values": [
+                                        {
+                                            "value": {
+                                                "name": "open",
+                                                "id": "7cef8a734855777c2a9d0caf42666e69"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                "gameType": {
+                    "name": "gameType",
+                    "value": "tower control",
+                    "resolutions": {
+                        "resolutionsPerAuthority": [
+                            {
+                                "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.4cb46393-f70c-4872-99ae-34b218f4f662.LIST_OF_GAME_GAME_TYPES",
+                                "status": {
+                                    "code": "ER_SUCCESS_MATCH"
+                                },
+                                "values": [
+                                    {
+                                        "value": {
+                                            "name": "tower control",
+                                            "id": "babb773ecb40c46338a62ddc8177d612"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "confirmationStatus": "NONE",
+                    "source": "USER",
+                    "slotValue": {
+                        "type": "Simple",
+                        "value": "tower control",
+                        "resolutions": {
+                            "resolutionsPerAuthority": [
+                                {
+                                    "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.4cb46393-f70c-4872-99ae-34b218f4f662.LIST_OF_GAME_GAME_TYPES",
+                                    "status": {
+                                        "code": "ER_SUCCESS_MATCH"
+                                    },
+                                    "values": [
+                                        {
+                                            "value": {
+                                                "name": "tower control",
+                                                "id": "babb773ecb40c46338a62ddc8177d612"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                "__Conjunction": {
+                    "name": "__Conjunction",
+                    "confirmationStatus": "NONE"
+                }
+            }
+        }
+    }
+}

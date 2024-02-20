@@ -1,0 +1,17 @@
+version: "3"
+services:
+  lambda:
+    build:
+      context: ./
+      dockerfile: Docker/lambda/Dockerfile
+    working_dir: /app
+    develop:
+      watch:
+        - action: rebuild
+          path: ./*
+    env_file:
+      - ./.env
+    environment:
+      - LAMBDA_TASK_ROOT=/app
+    ports:
+      - 9000:8080

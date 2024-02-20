@@ -1,0 +1,157 @@
+{
+    "version": "1.0",
+    "session": {
+        "new": true,
+        "sessionId": "amzn1.echo-api.session.1741f6e7-9545-4259-a992-31088613d14a",
+        "application": {
+            "applicationId": "amzn1.ask.skill.4cb46393-f70c-4872-99ae-34b218f4f662"
+        },
+        "attributes": {},
+        "user": {
+            "userId": "amzn1.ask.account.AHEAG54662UBIXIZPYT45LIJIV4GPUHKKBOEQY7FN6R7EKSFKJHUXUQQK4YZMC66IP5FUHM2WDUL3UNU5FRMB6SXH6ZFBTUANJZNYPCOKLY7EMLU5CHX7PMIZKG4SY6M6QKET3FBLGIJEQJG3NELPYBVWTZNBW3VM3KKYDY6SI4WB7ROOG3HOUKK6POW55MG3JN5WKLRYPYOBCI"
+        }
+    },
+    "context": {
+        "Viewports": [
+            {
+                "type": "APL",
+                "id": "main",
+                "shape": "RECTANGLE",
+                "dpi": 213,
+                "presentationType": "STANDARD",
+                "canRotate": false,
+                "configuration": {
+                    "current": {
+                        "mode": "HUB",
+                        "video": {
+                            "codecs": [
+                                "H_264_42",
+                                "H_264_41"
+                            ]
+                        },
+                        "size": {
+                            "type": "DISCRETE",
+                            "pixelWidth": 1280,
+                            "pixelHeight": 800
+                        }
+                    }
+                }
+            }
+        ],
+        "Viewport": {
+            "experiences": [
+                {
+                    "arcMinuteWidth": 346,
+                    "arcMinuteHeight": 216,
+                    "canRotate": false,
+                    "canResize": false
+                }
+            ],
+            "mode": "HUB",
+            "shape": "RECTANGLE",
+            "pixelWidth": 1280,
+            "pixelHeight": 800,
+            "dpi": 213,
+            "currentPixelWidth": 1280,
+            "currentPixelHeight": 800,
+            "touch": [
+                "SINGLE"
+            ],
+            "video": {
+                "codecs": [
+                    "H_264_42",
+                    "H_264_41"
+                ]
+            }
+        },
+        "Extensions": {
+            "available": {
+                "aplext:backstack:10": {}
+            }
+        },
+        "Advertising": {
+            "advertisingId": "00000000-0000-0000-0000-000000000000",
+            "limitAdTracking": true
+        },
+        "System": {
+            "application": {
+                "applicationId": "amzn1.ask.skill.4cb46393-f70c-4872-99ae-34b218f4f662"
+            },
+            "user": {
+                "userId": "amzn1.ask.account.AHEAG54662UBIXIZPYT45LIJIV4GPUHKKBOEQY7FN6R7EKSFKJHUXUQQK4YZMC66IP5FUHM2WDUL3UNU5FRMB6SXH6ZFBTUANJZNYPCOKLY7EMLU5CHX7PMIZKG4SY6M6QKET3FBLGIJEQJG3NELPYBVWTZNBW3VM3KKYDY6SI4WB7ROOG3HOUKK6POW55MG3JN5WKLRYPYOBCI"
+            },
+            "device": {
+                "deviceId": "amzn1.ask.device.AGRK3YFBW2TGSW3P33DCCA7ZICBW64QTQJITSVKU4LQGX7FBZSWYWX7WWMFHU37GGNBLD77RFU6PCL7ISZXMSNLTRJKOBQT6BTOG3SITXAMTALGYRLT5GPP6SN3OAO4YVTDXL4UREUD755FEPG7W2E5D5M2XCEOU2XVB653LI3JP6ESTBUST6",
+                "supportedInterfaces": {}
+            },
+            "apiEndpoint": "https://api.eu.amazonalexa.com",
+            "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5ldS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjRjYjQ2MzkzLWY3MGMtNDg3Mi05OWFlLTM0YjIxOGY0ZjY2MiIsImV4cCI6MTcwMTAxMjI1OSwiaWF0IjoxNzAxMDEyMTk5LCJuYmYiOjE3MDEwMTIxOTksInByaXZhdGVDbGFpbXMiOnsiY29udGV4dCI6IkFBQUFBQUFBQVFBeTd5WTV3YUxRdDdML1BHUTBpMDNyVGdFQUFBQUFBQUNqMlgrdGQ1RzIzckZzSXBGczFGU3B2SzA4SlNJdVdzNmRwTTFNd0N5aVRyTEg0T0FkcE1CSUdZUm4yWDRPYlBhN2RLanFXTmFWckNXdFNyRmFpWG5VWHUxMDdmRkpOL2RUZk1heTR5aHFsRVVHc1JQQ2pSaVVObHNUOEVtdlh3NEpVdFVHd3VsWmNabUszLzVUTm9vZjdlMlczb2tsZU1HU0NhM0h0ZlNEbW9FYTA0OGVWc2gzR2hvWGY5M25iSGpMRFpDMXRTaEpDWFFjTEQ0Rm5CZ3M3ZUZyOVFXZ1RHNHhqb2R5V2ZzaWxUNysxVVdlZm1IZ1BVNHZjZ01Ub1VKNFllODhKbnlxWHp5aGtTNDZ1UjZsbmdIRzZzVUNUSCtmWndoR0N0QitjamZrNDBaZ1UwYmhjRzd3eDNMSXNUK2E0T1ptNjlUN3VvdmlRUHdXa3JZcEVML05JVXRTd0JiSXpQWmtGb1d5OTdsZVdiNXNnMTdFWWcvbkJvbUk4azRtWXhlRG5TOEhIZ3V4dERya3dNenZuSjZISUJWdURkZS9OVk16NFd2bldiQnVzUi95elZLclNaaGFmQmh0IiwiZGV2aWNlSWQiOiJhbXpuMS5hc2suZGV2aWNlLkFHUkszWUZCVzJUR1NXM1AzM0RDQ0E3WklDQlc2NFFUUUpJVFNWS1U0TFFHWDdGQlpTV1lXWDdXV01GSFUzN0dHTkJMRDc3UkZVNlBDTDdJU1pYTVNOTFRSSktPQlFUNkJUT0czU0lUWEFNVEFMR1lSTFQ1R1BQNlNOM09BTzRZVlREWEw0VVJFVUQ3NTVGRVBHN1cyRTVENU0yWENFT1UyWFZCNjUzTEkzSlA2RVNUQlVTVDYiLCJ1c2VySWQiOiJhbXpuMS5hc2suYWNjb3VudC5BSEVBRzU0NjYyVUJJWElaUFlUNDVMSUpJVjRHUFVIS0tCT0VRWTdGTjZSN0VLU0ZLSkhVWFVRUUs0WVpNQzY2SVA1RlVITTJXRFVMM1VOVTVGUk1CNlNYSDZaRkJUVUFOSlpOWVBDT0tMWTdFTUxVNUNIWDdQTUlaS0c0U1k2TTZRS0VUM0ZCTEdJSkVRSkczTkVMUFlCVldUWk5CVzNWTTNLS1lEWTZTSTRXQjdST09HM0hPVUtLNlBPVzU1TUczSk41V0tMUllQWU9CQ0kifX0.Xf-CXpj8GJHUmvAPbOD04uHBcKFFEut9FIphXRAgdxtJBZ7iktRvBKNVnxR79DgZFLvJXompcdFN2giP-rFwHPCe2Gr1woez_gwKIFMeOswpHr_bK90LsaMGnhTGSA_ic4ExYhuB6ANd8xg5ye7ZbK8wnPCjpJKqXSwyuAucV1rTY7E-4nP1Mobub5up-5Ddx1JmM4H3GHOI1eFcOGxea3Y-U7FxtB2EaQjqUmRx49ZtpxrWaEHOXbccjlWEkyusML3F1J9P97Bc9dBGpdm2BFQkoSNOXz-mWP4WyAxrABBOkMAaDKIwC7bm6Cq6lcZg1-EvOwnZoBfCDLvdzZdUtw"
+        }
+    },
+    "request": {
+        "type": "IntentRequest",
+        "requestId": "amzn1.echo-api.request.8da70f75-177b-4175-9710-1bc8a9023b32",
+        "locale": "en-GB",
+        "timestamp": "2023-11-26T15:23:19Z",
+        "intent": {
+            "name": "whatson",
+            "confirmationStatus": "NONE",
+            "slots": {
+                "mode": {
+                    "name": "mode",
+                    "value": "open",
+                    "resolutions": {
+                        "resolutionsPerAuthority": [
+                            {
+                                "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.4cb46393-f70c-4872-99ae-34b218f4f662.LIST_OF_GAME_MODES",
+                                "status": {
+                                    "code": "ER_SUCCESS_MATCH"
+                                },
+                                "values": [
+                                    {
+                                        "value": {
+                                            "name": "open",
+                                            "id": "7cef8a734855777c2a9d0caf42666e69"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "confirmationStatus": "NONE",
+                    "source": "USER",
+                    "slotValue": {
+                        "type": "Simple",
+                        "value": "open",
+                        "resolutions": {
+                            "resolutionsPerAuthority": [
+                                {
+                                    "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.4cb46393-f70c-4872-99ae-34b218f4f662.LIST_OF_GAME_MODES",
+                                    "status": {
+                                        "code": "ER_SUCCESS_MATCH"
+                                    },
+                                    "values": [
+                                        {
+                                            "value": {
+                                                "name": "open",
+                                                "id": "7cef8a734855777c2a9d0caf42666e69"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                "gameType": {
+                    "name": "gameType",
+                    "confirmationStatus": "NONE"
+                },
+                "__Conjunction": {
+                    "name": "__Conjunction",
+                    "confirmationStatus": "NONE"
+                }
+            }
+        }
+    }
+}
