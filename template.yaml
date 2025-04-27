@@ -1,47 +1,26 @@
-AWSTemplateFormatVersion: "2010-09-09"
+AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
-Description: >
+Description: |
   splatoon-schedule-alex-skill
 
-  Sample SAM Template for splatoon-schedule-alex-skill
-
-# More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
 Globals:
   Function:
     Timeout: 5
     MemorySize: 128
-
     Tracing: Active
-  Api:
-    TracingEnabled: true
+
 Resources:
   ScheduleFunction:
-    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Type: AWS::Serverless::Function
+    Metadata:
+      BuildMethod: makefile
     Properties:
-      CodeUri: ./
-      Handler: ./lambda/main.go
-      Runtime: go1.x
+      CodeUri: .
+      Handler: bootstrap
+      Runtime: provided.al2
       Architectures:
-        - x86_64
-      Events:
-        CatchAll:
-          Type: AlexaSkill # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
-          Properties:
-            SkillId: 4cb46393-f70c-4872-99ae-34b218f4f662
-      Environment: # More info about Env Vars: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#environment-object
+        - arm64
+      Environment:
         Variables:
-          PARAM1: VALUE
-
-  # ApplicationResourceGroup:
-  #   Type: AWS::ResourceGroups::Group
-  #   Properties:
-  #     Name:
-  #       Fn::Sub: ApplicationInsights-SAM-${AWS::StackName}
-  #     ResourceQuery:
-  #       Type: CLOUDFORMATION_STACK_1_0
-  # ApplicationInsightsMonitoring:
-  #   Type: AWS::ApplicationInsights::Application
-  #   Properties:
-  #     ResourceGroupName:
-  #       Ref: ApplicationResourceGroup
-  #     AutoConfigurationEnabled: "true"
+          LAMBDA_TASK_ROOT: /var/task
+          LAMBDA_RUNTIME_DIR: /var/runtime

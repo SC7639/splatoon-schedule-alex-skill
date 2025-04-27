@@ -1,0 +1,3 @@
+Metadata:
+  DockerFile: Dockerfile.lambda
+  DockerContext: .

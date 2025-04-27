@@ -13,7 +13,6 @@ require (
 
 require (
 	github.com/arienmalec/alexa-go v0.0.0-20181025212142-975687393e90
-	github.com/awslabs/aws-lambda-go-api-proxy v0.16.0
 	github.com/kr/pretty v0.3.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rogpeppe/go-internal v1.11.0 // indirect
