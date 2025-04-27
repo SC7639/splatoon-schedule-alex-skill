@@ -4,15 +4,13 @@ RUN apt-get -qq update && \
     apt-get -qq install -y curl bash zip
 
 # Install docker
-ENV DOCKER_VERSION=27.5.1
-RUN curl -fsSLO https://download.docker.com/linux/static/stable/x86_64/docker-${DOCKER_VERSION}.tgz  \
-    && tar xzvf docker-${DOCKER_VERSION}.tgz --strip 1 \
-        -C /usr/local/bin docker/docker \
-    && rm docker-${DOCKER_VERSION}.tgz
+# ENV DOCKER_VERSION=27.5.1
+# RUN curl -fsSLO https://download.docker.com/linux/static/stable/x86_64/docker-${DOCKER_VERSION}.tgz  \
+#     && tar xzvf docker-${DOCKER_VERSION}.tgz --strip 1 \
+#         -C /usr/local/bin docker/docker \
+#     && rm docker-${DOCKER_VERSION}.tgz
 
 # Fix sam docker credential store issue
-RUN mkdir -p ~/.docker \
-    && echo '{"credsStore": ""}' > ~/.docker/config.json
 
 # Install aws sam cli
 # RUN curl -fsSLO https://github.com/aws/aws-sam-cli/releases/latest/download/aws-sam-cli-linux-x86_64.zip \
@@ -42,6 +40,22 @@ RUN rm -rf /root/.docker/config.json
 
 # [Optional] Set the default user. Omit if you want to keep the default as root.
 # USER $USERNAME
+
+# RUN go install github.com/cosmtrek/air@latest
+
+# Install air
+COPY --from=cosmtrek/air:latest /go/bin/air /go/bin/air
+
+# Remove existing Go installation
+RUN rm -rf /usr/local/go
+
+# Clean up any cached files
+RUN rm -rf /root/.cache/go-build
+
+# Install lts go version
+RUN curl -fsSL https://go.dev/dl/go1.24.2.linux-amd64.tar.gz | \
+    tar -C /usr/local -xzvf -
+
 
 VOLUME /workspace
 WORKDIR /workspace

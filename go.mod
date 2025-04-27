@@ -1,14 +1,20 @@
 module github.com/SC7639/splatoon-schedule-alex-skill
 
-go 1.20
+go 1.21.0
+
+toolchain go1.23.6
 
 require (
 	github.com/aws/aws-lambda-go v1.41.0
-	github.com/davecgh/go-spew v1.1.1
 	github.com/go-resty/resty/v2 v2.10.0
 	github.com/joho/godotenv v1.5.1
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.8.4
+)
+
+require (
+	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/yassinebenaid/godump v0.11.1
 )
 
 require (

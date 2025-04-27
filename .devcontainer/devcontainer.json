@@ -46,7 +46,7 @@
 	// "shutdownAction": "stopCompose",
 
 	// Uncomment the next line to run commands after the container is created.
-	"postAttachCommand": "go mod download && go mod tidy && rm -rf ~/.docker/config.json",
+	"postAttachCommand": ".devcontainer/postCommand.sh",
 
 	// Uncomment to connect as an existing user other than the container default. More info: https://aka.ms/dev-containers-non-root.
 	"remoteUser": "root",

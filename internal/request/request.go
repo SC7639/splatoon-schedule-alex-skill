@@ -6,16 +6,16 @@ import (
 	"log"
 
 	"github.com/arienmalec/alexa-go"
-	"github.com/davecgh/go-spew/spew"
+	"github.com/yassinebenaid/godump"
 )
 
 func HandleRequest(ctx context.Context, req alexa.Request) (alexa.Response, error) {
 	// Use spew to output the request for debugging purposes:
-	fmt.Println("---- Dumping Input Map: ----")
-	spew.Dump(req)
-	fmt.Println("---- Done ----")
+	// fmt.Println("---- Dumping Input Map: ----")
+	// spew.Dump(req)
+	// fmt.Println("---- Done ----")
 
-	log.Printf("Request type is %v", req.Body.Intent.Name)
+	log.Printf("Request22 type is %v", req.Body.Intent.Name)
 	log.Printf("Request slots is %v", req.Body.Intent.Slots)
 
 	fmt.Println("---- Schedule data ----")
@@ -23,7 +23,7 @@ func HandleRequest(ctx context.Context, req alexa.Request) (alexa.Response, erro
 	if err != nil {
 		log.Panicf("Failed to get schdule %v", err)
 	}
-	spew.Dump(schedule)
+	godump.Dump(schedule.Data.Anarchy)
 	fmt.Println("---- Done ----")
 
 	// Create response object
