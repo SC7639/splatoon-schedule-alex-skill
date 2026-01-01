@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/SC7639/splatoon-schedule-alex-skill/internal/response"
 	"github.com/arienmalec/alexa-go"
 	"github.com/yassinebenaid/godump"
 )
@@ -15,7 +16,7 @@ func HandleRequest(ctx context.Context, req alexa.Request) (alexa.Response, erro
 	// spew.Dump(req)
 	// fmt.Println("---- Done ----")
 
-	log.Printf("Request22 type is %v", req.Body.Intent.Name)
+	log.Printf("Request type is %v", req.Body.Intent.Name)
 	log.Printf("Request slots is %v", req.Body.Intent.Slots)
 
 	fmt.Println("---- Schedule data ----")
@@ -23,14 +24,17 @@ func HandleRequest(ctx context.Context, req alexa.Request) (alexa.Response, erro
 	if err != nil {
 		log.Panicf("Failed to get schdule %v", err)
 	}
-	godump.Dump(schedule.Data.Anarchy)
+	// godump.Dump(schedule.Data.Anarchy)
 	fmt.Println("---- Done ----")
 
 	// Create response object
 	var resp alexa.Response
 	switch req.Body.Intent.Name {
 	case "whatson":
-		resp = alexa.NewSimpleResponse("test", "test")
+		gameType := req.Body.Intent.Slots["gameType"].Value
+		gameTypeSettings := getNextGameType(schedule, gameType)
+		godump.Dump(gameTypeSettings)
+		resp = response.NewWhatsonResponse(gameTypeSettings)
 
 	}
 

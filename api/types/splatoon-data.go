@@ -57,3 +57,8 @@ type Rule struct {
 	Rule string `json:"rule"`
 	Id   string `json:"id"`
 }
+
+type GameTypeSettings struct {
+	Node
+	Setting
+}

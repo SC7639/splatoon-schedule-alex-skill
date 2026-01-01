@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Open Dev Container Shell (Auto-detect)",
+			"type": "shell",
+			"command": "CONTAINER=$(docker ps --format '{{.Names}}' --filter 'name=vsc-' | head -1); if [ -z \"$CONTAINER\" ]; then echo 'No dev container found'; exit 1; fi; docker exec -it \"$CONTAINER\" /bin/zsh || docker exec -it \"$CONTAINER\" /bin/bash || docker exec -it \"$CONTAINER\" /bin/sh",
+			"isBackground": false,
+			"presentation": {
+				"reveal": "always",
+				"panel": "new",
+				"focus": true,
+				"revealProblems": "never"
+			},
+			"problemMatcher": []
+		}
+	]
+}
+

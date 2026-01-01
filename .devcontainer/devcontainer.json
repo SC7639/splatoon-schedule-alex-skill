@@ -19,7 +19,8 @@
 
 	"containerEnv": {
 		"LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}",
-		"WORKSPACE_FOLDER": "${workspaceFolder}"
+		"WORKSPACE_FOLDER": "${workspaceFolder}",
+		"DOCKER_DEFAULT_PLATFORM": "linux/amd64"
 	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.

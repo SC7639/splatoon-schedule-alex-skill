@@ -1,0 +1,158 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": true,
+		"sessionId": "amzn1.echo-api.session.59513813-f504-4f6c-9bed-de8e6e2113c5",
+		"application": {
+			"applicationId": "amzn1.ask.skill.4cb46393-f70c-4872-99ae-34b218f4f662"
+		},
+		"attributes": {},
+		"user": {
+			"userId": "amzn1.ask.account.AMA625ZXW4LXSNWPMEPN374TBQJAID4LAFV6VORJOOQDRX3WDT2YQXKDK6SIJAORLTBYSX7T4MFL67APEJH63TD65LWJKJXC7UZDT5NWLDZAKUDSEXT7CAULI352PVMFPNIUPVH2G6MUOPE42INO6PCTP2UQEHGK6I5OSET6SM7RWCABONWIEVNJMUCR7UQTKKEFRA4CT3DSJZF55OHEAUW33OYGRAW66DGG4FFVRCHQ"
+		},
+		"affiliatedResources": []
+	},
+	"context": {
+		"Viewports": [
+			{
+				"type": "APL",
+				"id": "main",
+				"shape": "RECTANGLE",
+				"dpi": 213,
+				"presentationType": "STANDARD",
+				"canRotate": false,
+				"configuration": {
+					"current": {
+						"mode": "HUB",
+						"video": {
+							"codecs": [
+								"H_264_42",
+								"H_264_41"
+							]
+						},
+						"size": {
+							"type": "DISCRETE",
+							"pixelWidth": 1280,
+							"pixelHeight": 800
+						}
+					}
+				}
+			}
+		],
+		"Viewport": {
+			"experiences": [
+				{
+					"arcMinuteWidth": 346,
+					"arcMinuteHeight": 216,
+					"canRotate": false,
+					"canResize": false
+				}
+			],
+			"mode": "HUB",
+			"shape": "RECTANGLE",
+			"pixelWidth": 1280,
+			"pixelHeight": 800,
+			"dpi": 213,
+			"currentPixelWidth": 1280,
+			"currentPixelHeight": 800,
+			"touch": [
+				"SINGLE"
+			],
+			"video": {
+				"codecs": [
+					"H_264_42",
+					"H_264_41"
+				]
+			}
+		},
+		"Extensions": {
+			"available": {
+				"aplext:backstack:10": {}
+			}
+		},
+		"Advertising": {
+			"advertisingId": "00000000-0000-0000-0000-000000000000",
+			"limitAdTracking": true
+		},
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.4cb46393-f70c-4872-99ae-34b218f4f662"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AMA625ZXW4LXSNWPMEPN374TBQJAID4LAFV6VORJOOQDRX3WDT2YQXKDK6SIJAORLTBYSX7T4MFL67APEJH63TD65LWJKJXC7UZDT5NWLDZAKUDSEXT7CAULI352PVMFPNIUPVH2G6MUOPE42INO6PCTP2UQEHGK6I5OSET6SM7RWCABONWIEVNJMUCR7UQTKKEFRA4CT3DSJZF55OHEAUW33OYGRAW66DGG4FFVRCHQ"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AMAQWJBID5O7BVID2JNKLAYXO4NAHQ5ST6ZRMG6SRBFQLKTCIP4EJPXYIXC2IULJDYWXBS3JN65S5SPSKW6U3CC4QE2PJOXYBPCPFHMK7NSKHKZCOH5W3FB74XFHW36YN53HL3U6EUF2MJFUURP66XZTDI44IPTA7TIZTM7W23X2XDBEZONYXDJ5MS3JUEYOY3K57GJ4B37KLBTR",
+				"supportedInterfaces": {}
+			},
+			"apiEndpoint": "https://api.eu.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5ldS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjRjYjQ2MzkzLWY3MGMtNDg3Mi05OWFlLTM0YjIxOGY0ZjY2MiIsImV4cCI6MTc2NzIyNzQwOSwiaWF0IjoxNzY3MjI3MzQ5LCJuYmYiOjE3NjcyMjczNDksInByaXZhdGVDbGFpbXMiOnsiaXNGb3JSQSI6ImZhbHNlIiwiY29udGV4dCI6IkFBQUFBQUFBQVFCZ0UrQSs3ZnlyQmFkMEUxVGd6MjYrZUFFQUFBQUFBQUIzUFdrY1dKbEdCc2k4Z2JWZ1ExeEc5MDNET3hoYndYMlhXSmlUSG80NGFwKzNyWGppNnJHcWYvb1A1eUpMaE1nYWxwbWQ4eTNGSkg0bzY0Q25uRHBmc3NnWkJlM01KRi9UdzlMQ3dneUFzdytUazJQT0U0ZUhEaDFycjhjdTgxTTNlZHlBaEpZdEtpRjcrMUlOMjhZc0JBVGhsZFhHcXl1YWY0Mm5wV2xQRkdYUzY5MWZ3dWVuRDRGaVBHYXcxZWl0aTAxbWlFNVpwcXpkeUlhREVnRTYvU3Q5Szc0ZHVIV0ZabVkxYmtSRm95L0h6aXBMY2FQbUhJTWU0dVEwbmFkYXpnbFNMNnJlRG9CeUJVRVg4UDZBeWlNTlVadGlveWhKY09jMGlPTXBFUG5hb1VJeS9URjVsME1SRWhqT2w5Yks2TWorZU5PNUtZRDhRQkNvcWJSOTBnTGZrOGRQeDZaVXFzd200VXRSV2piVEhkbTZ2MklzNFVxU29hUTk1RGRUL01uL0ZKVUZZVkZyWDYrQmVUUGdDMXI1UC9oZGVJaVA5TjJUL0Vnb0Qrc2dCS1dSSVZmTVdDUW5HUmI4TnRBd25wK1ZYZWZGclpoTU9wbEcrYVFkdVd4UllxTkVZTjJQY2hzR21oS2ZhamR1NForWFBPTmwiLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQU1BUVdKQklENU83QlZJRDJKTktMQVlYTzROQUhRNVNUNlpSTUc2U1JCRlFMS1RDSVA0RUpQWFlJWEMySVVMSkRZV1hCUzNKTjY1UzVTUFNLVzZVM0NDNFFFMlBKT1hZQlBDUEZITUs3TlNLSEtaQ09INVczRkI3NFhGSFczNllONTNITDNVNkVVRjJNSkZVVVJQNjZYWlRESTQ0SVBUQTdUSVpUTTdXMjNYMlhEQkVaT05ZWERKNU1TM0pVRVlPWTNLNTdHSjRCMzdLTEJUUiIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFNQTYyNVpYVzRMWFNOV1BNRVBOMzc0VEJRSkFJRDRMQUZWNlZPUkpPT1FEUlgzV0RUMllRWEtESzZTSUpBT1JMVEJZU1g3VDRNRkw2N0FQRUpINjNURDY1TFdKS0pYQzdVWkRUNU5XTERaQUtVRFNFWFQ3Q0FVTEkzNTJQVk1GUE5JVVBWSDJHNk1VT1BFNDJJTk82UENUUDJVUUVIR0s2STVPU0VUNlNNN1JXQ0FCT05XSUVWTkpNVUNSN1VRVEtLRUZSQTRDVDNEU0paRjU1T0hFQVVXMzNPWUdSQVc2NkRHRzRGRlZSQ0hRIn19.HN_WKvODIXC29nL5818TbHXfFiHlEZ4X-Z1Fx8-5hFzPBqi6pHn8n3tyIX3JZ-J-U6DG_utxp7mN7JqNkfFhbDcg68ZkFnJct-Azgs5pDA06fmO_OaWYpatNCj3CtR-XshgXurK3tBr9d0q3rS_8S4P831zyQ-n48lgX3Xhl3tgD6xbh65RkT0q18Q9mxnIsLc7W1RIoGnc7ehwj1k_fR1XRTqHZr1TtEqkd4aTvq-CifEn4vQ1u4anom5qi1vnYXhAFd7GOnwOKi8t7lKFWh-nN2wKILCkanBCAlNuTcxjRzY4LYe3EvryNzaRlUYJaU-8ZLFmUkYpTHAIIoLlhnw"
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.6c602017-c220-47c4-9946-d3f8fb1100a3",
+		"locale": "en-GB",
+		"timestamp": "2026-01-01T00:29:09Z",
+		"intent": {
+			"name": "whatson",
+			"confirmationStatus": "NONE",
+			"slots": {
+				"mode": {
+					"name": "mode",
+					"confirmationStatus": "NONE"
+				},
+				"gameType": {
+					"name": "gameType",
+					"value": "splatzones",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.4cb46393-f70c-4872-99ae-34b218f4f662.LIST_OF_GAME_GAME_TYPES",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "splat zones",
+											"id": "b0d23fca5a3934ff91ef475f72dfc81d"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE",
+					"source": "USER",
+					"slotValue": {
+						"type": "Simple",
+						"value": "splatzones",
+						"resolutions": {
+							"resolutionsPerAuthority": [
+								{
+									"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.4cb46393-f70c-4872-99ae-34b218f4f662.LIST_OF_GAME_GAME_TYPES",
+									"status": {
+										"code": "ER_SUCCESS_MATCH"
+									},
+									"values": [
+										{
+											"value": {
+												"name": "splat zones",
+												"id": "b0d23fca5a3934ff91ef475f72dfc81d"
+											}
+										}
+									]
+								}
+							]
+						}
+					}
+				},
+				"__Conjunction": {
+					"name": "__Conjunction",
+					"confirmationStatus": "NONE"
+				}
+			}
+		}
+	}
+}

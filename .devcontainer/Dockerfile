@@ -53,7 +53,10 @@ RUN rm -rf /usr/local/go
 RUN rm -rf /root/.cache/go-build
 
 # Install lts go version
-RUN curl -fsSL https://go.dev/dl/go1.24.2.linux-amd64.tar.gz | \
+ARG TARGETARCH
+ARG BUILDARCH
+RUN ARCH=${TARGETARCH:-${BUILDARCH:-$(uname -m | sed 's/x86_64/amd64/;s/aarch64/arm64/')}} && \
+    curl -fsSL https://go.dev/dl/go1.24.2.linux-${ARCH}.tar.gz | \
     tar -C /usr/local -xzvf -
 
 
