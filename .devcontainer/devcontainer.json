@@ -27,7 +27,7 @@
 	"features": {
 		"ghcr.io/audacioustux/devcontainers/aws-sam-cli:1": {},
 		"ghcr.io/jungaretti/features/make:1": {},
-		"ghcr.io/devcontainers/features/docker-in-docker:2": {
+		"ghcr.io/devcontainers/features/docker-in-docker:4": {
 			"dockerDashComposeVersion": "none",
 			"installDockerBuildx": false
 		},
